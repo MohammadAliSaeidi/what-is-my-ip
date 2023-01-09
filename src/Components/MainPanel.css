@@ -1,0 +1,12 @@
+.main-panel {
+	display: flex;
+	width: 600px;
+	height: fit-content;
+	flex-direction: column;
+}
+
+.coordinates {
+	display: flex;
+	flex-wrap: wrap;
+
+}
