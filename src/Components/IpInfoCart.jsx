@@ -5,11 +5,11 @@ import MainPanel from './MainPanel.jsx'
 import './Panel.css'
 import './IpInfoCart.css'
 
-export default function IpInfoCart()
+export default function IpInfoCart(props)
 {
 	return (
 		<div className='main-div'>
-			<MainPanel />
+			<MainPanel ipInfo={null} />
 		</div>
 	)
 }
