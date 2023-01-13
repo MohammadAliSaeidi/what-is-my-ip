@@ -1,0 +1,6 @@
+.country-flag {
+	border-radius: 0.5rem;
+	max-width: 100px;
+	image-rendering: optimizeSpeed;
+	align-self: center;
+}

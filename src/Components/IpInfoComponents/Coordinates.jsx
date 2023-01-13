@@ -1,6 +1,5 @@
 import React from 'react'
 import './Coordinates.css'
-import './SectionHeader.css'
 
 export default function Coordinates(props)
 {

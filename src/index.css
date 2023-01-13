@@ -11,19 +11,13 @@ body {
 	overflow-x: hidden;
 }
 
+* {
+	margin: 0px;
+	padding: 0px;
+	color: #f6f6f6;
+}
+
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
-}
-
-h3 {
-	color: #f6f6f6;
-}
-
-h4 {
-	color: #f6f6f6;
-}
-
-* {
-	color: #f6f6f6;
 }
