@@ -9,7 +9,7 @@ export default function Location(props)
 			<div className='section-content'>
 				<CountryFlag flagImg={props.countryFlag} />
 				<div className='country-and-city'>
-					{props.city}, {props.country}
+					<p>{props.city}, {props.country}</p>
 				</div>
 			</div>
 		</>
