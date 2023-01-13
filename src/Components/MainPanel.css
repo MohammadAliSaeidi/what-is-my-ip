@@ -3,9 +3,7 @@
 	width: 600px;
 	height: fit-content;
 	flex-direction: column;
-}
-
-.coordinates {
-	display: flex;
-	flex-wrap: wrap;
+	justify-items: center;
+	padding: 50px;
+	box-sizing: border-box;
 }

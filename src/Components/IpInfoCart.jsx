@@ -9,7 +9,7 @@ export default function IpInfoCart(props)
 {
 	return (
 		<div className='main-div'>
-			<MainPanel ipInfo={null} />
+			<MainPanel ipInfo={props.ipInfo} />
 		</div>
 	)
 }

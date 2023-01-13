@@ -1,6 +1,7 @@
 import IpInfoCart from './Components/IpInfoCart.jsx'
 import React, { Component } from 'react'
 import getIpInfo from "./Services/IpInfoService.js";
+import './Components/SectionHeader.css'
 
 export default class App extends Component
 {
@@ -25,7 +26,7 @@ export default class App extends Component
     const isLoading = this.state.isLoading;
     return (
       <>
-        {isLoading ? < p > Loading</p > :
+        {isLoading ? <p>Loading</p> :
           <IpInfoCart ipInfo={this.state.ipInfo} />
         }
       </>

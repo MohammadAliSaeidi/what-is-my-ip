@@ -1,0 +1,24 @@
+.coordinates {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: auto;
+	gap: 0px;
+}
+
+.coordinates-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 50px;
+}
+
+.coordinate-parameter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.coordinate-parameter p {
+	padding-left: 10px;
+}
